@@ -22,7 +22,6 @@ a {
     position: relative;
     width: 100%;
     height: 15em;
-    padding: 1px;
     background-color: #6AAC80;
 }
 .header h1 {
@@ -76,7 +75,7 @@ a {
     font-weight: normal;
     color: #6AACA5;
 }
-.tech-video-list {
+.video-list {
     padding: 0;
 }
 .list-item {
@@ -88,6 +87,10 @@ a {
 .description-img {
     float: left;
 }
+.description-img img {
+    width: 60px;
+    height: 60px;
+}
 .description-info {
     float: left;
 }
@@ -97,7 +100,7 @@ a {
 }
 .description-info .info-name {
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.85em;
     line-height: 2.25em;
 }
 .description-info .info-link {
@@ -112,7 +115,7 @@ a {
 }
 
 .video-content {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 2em;
     background-color: #F4F4F4;
 }
@@ -161,6 +164,19 @@ a {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.load-notice {
+    position: relative;
+    left: 50%;
+    bottom: 0.5em;
+    margin-left: -2.5em;
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    font-size: 0.5em;
+    color: #fff;
+    background-color: #6AACA5; 
+}
 
 @media (max-width: 615px) {
     .sort-list {
